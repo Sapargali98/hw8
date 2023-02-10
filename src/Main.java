@@ -17,5 +17,7 @@ public class Main {
         System.out.println("Average="+ myAverage.getAverage());
         Movie myMovie=new Movie("Фокус","RatPac-Dune Entertainment","R");
         Movie myMovie1=new Movie("Главный герой","20th Century Studios");
+        System.out.println(myMovie1);
+        System.out.println(myMovie);
     }
 }
