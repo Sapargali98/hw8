@@ -1,8 +1,8 @@
 public class Average {
-    int a=1;
-    int b=5;
-    int c=3;
-public void getAverage() {
-    System.out.println("Среднее значение="+(a+b+c)/3);
+    double a=1;
+    double b=5;
+    double c=3;
+public double getAverage() {
+     return  (a+b+c)/3;
 }
 }

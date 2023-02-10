@@ -1,13 +1,12 @@
 
 public class Rectangle {
-    int x=5;
-    int y=9;
-    int z=10;
-    int r=14;
-    public void returnArea() {
-        System.out.println("S="+x*y);}
-        public void returnArea1() {
-        System.out.println("S="+z*r);
-    }
+    double x=5;
+    double y=9;
+    double z=10;
+    double r=14;
+    public double returnArea() {
+       return x*y;}
+        public double returnArea1() {
+        return z*r;}
 
 }
