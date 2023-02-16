@@ -1,12 +1,14 @@
 
 public class Rectangle {
-    double x=5;
-    double y=9;
-    double z=10;
-    double r=14;
+    double x;
+    double y;
+    public Rectangle(double x,double y) {
+        this.x=x;
+        this.y=y;
+    }
+
     public double returnArea() {
        return x*y;}
-        public double returnArea1() {
-        return z*r;}
+
 
 }
